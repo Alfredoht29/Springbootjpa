@@ -1,15 +1,12 @@
 package com.example.Proyecto.Completo.Modelos;
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
-//mport org.springframework.data.relational.core.mapping.Table;
 import java.time.LocalDate;
 import java.time.Period;
 
 @Entity
 @Table
 public class Student {
-    @jakarta.persistence.Id
     @Id
     @SequenceGenerator(
             name="student_sequence",
