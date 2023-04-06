@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TokenUtils {
-    private final static String ACCES_TOKEN_SECRET="$2a$12$qsRQJ/LhdsTMVzDX4nhSY.2SlmcErRnYSnQV3JCZOn5jEX0rJiPy2";
+    private final static String ACCES_TOKEN_SECRET="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9";
     private final static Long ACCES_TOKEN_VALIDITY_SECONDS = 2_592_000L;
 
     public static String createToken(String nombre,String email){

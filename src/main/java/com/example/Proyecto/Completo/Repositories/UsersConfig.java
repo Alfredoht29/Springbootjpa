@@ -14,11 +14,8 @@ public class UsersConfig {
         return args -> {
             User test = new User("admin1"
                     ,"test@outlook.com"
-                    ,"xd123");
-            User test2 = new User("admin2"
-            ,"imscared@gmail.com"
-            ,"xdont123");
-            usersRepository.saveAll(List.of(test,test2));
+                    ,"");
+            usersRepository.saveAll(List.of(test));
         };
     }
 }
